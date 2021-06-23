@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese los datos"
+        android:layout_marginTop="25sp"
+        android:gravity="center"
+        android:textSize="25sp"
+
+        />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su Nombre"
+        android:layout_below="@id/txtTitulo"
+        android:layout_margin="25sp"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/txtEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su edad"
+        android:layout_below="@id/txtNombre"
+        android:layout_margin="25sp"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/btnVerficar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEdad"
+        android:layout_margin="35sp"
+        android:text="seleccione si es menor de edad"
+        android:onClick="pulsar"
+        android:backgroundTint="@android:color/holo_green_dark"
+        />
+
+    <Button
+        android:id="@+id/btnVerficar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnVerficar"
+        android:layout_margin="35sp"
+        android:text="Seleccione si es mayor de edad"
+        android:onClick="pulsar"
+        android:backgroundTint="@android:color/holo_green_dark"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MAIntermedia">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300sp"
+        android:src="@drawable/id_calendar2"
+        android:layout_marginTop="20sp"
+        />
+
+    <TextView
+        android:id="@+id/txtTitulo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actividad Intermedia"
+        android:layout_centerInParent="true"
+        android:textSize="35sp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+       />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitulo2"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="Ir a la Actividad Inicial"
+        android:layout_margin="25sp"
+        android:onClick="pulsar"
+       />
+
+    <Button
+        android:id="@+id/btnAvanzar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegresar"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:layout_margin="25sp"
+        android:text="Ir a la Actividad Final"
+        android:onClick="pulsar"
+        />
+</RelativeLayout>

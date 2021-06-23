@@ -1,0 +1,2 @@
+rootProject.name = "My AppAct3"
+include ':app'

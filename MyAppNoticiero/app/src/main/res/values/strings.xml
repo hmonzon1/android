@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Noticiero</string>
+    
+    <string name="texto1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Duis ornare turpis a risus vestibulum, quis condimentum ante
+        facilisis. Nulla vel interdum risus. Nunc sollicitudin pellentesque lacus
+        ut semper. Duis et justo ac purus pharetra ullamcorper. Curabitur purus
+        neque, feugiat eget tincidunt ut, malesuada vitae purus. Proin non purus
+        non libero scelerisque volutpat. Donec condimentum, eros sit amet dignissim
+        malesuada, nibh ipsum iaculis ligula, id condimentum augue tellus fringilla ex.
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+        Phasellus aliquam mattis ante quis egestas. In varius purus ut fermentum rhoncus.
+        <br> \n </br>
+
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Duis ornare turpis a risus vestibulum, quis condimentum ante
+        facilisis. Nulla vel interdum risus. Nunc sollicitudin pellentesque lacus
+        ut semper. Duis et justo ac purus pharetra ullamcorper. Curabitur purus
+        neque, feugiat eget tincidunt ut, malesuada vitae purus. Proin non purus
+        non libero scelerisque volutpat. Donec condimentum, eros sit amet dignissim
+        malesuada, nibh ipsum iaculis ligula, id condimentum augue tellus fringilla ex.
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+        Phasellus aliquam mattis ante quis egestas. In varius purus ut fermentum rhoncus.
+    </string>
+
+    <string name="texto2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Duis ornare turpis a risus vestibulum, quis condimentum ante
+        facilisis. Nulla vel interdum risus. Nunc sollicitudin pellentesque lacus
+        ut semper. Duis et justo ac purus pharetra ullamcorper. Curabitur purus
+        neque, feugiat eget tincidunt ut, malesuada vitae purus. Proin non purus
+        non libero scelerisque volutpat. Donec condimentum, eros sit amet dignissim
+        malesuada, nibh ipsum iaculis ligula, id condimentum augue tellus fringilla ex.
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+        Phasellus aliquam mattis ante quis egestas. In varius purus ut fermentum rhoncus.
+    </string>
+
+    <string name="texto3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Duis ornare turpis a risus vestibulum, quis condimentum ante
+        facilisis. Nulla vel interdum risus. Nunc sollicitudin pellentesque lacus
+        ut semper. Duis et justo ac purus pharetra ullamcorper. Curabitur purus
+        neque, feugiat eget tincidunt ut, malesuada vitae purus. Proin non purus
+        non libero scelerisque volutpat. Donec condimentum, eros sit amet dignissim
+        malesuada, nibh ipsum iaculis ligula, id condimentum augue tellus fringilla ex.
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+        Phasellus aliquam mattis ante quis egestas. In varius purus ut fermentum rhoncus.
+    </string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tienda"
+        android:layout_marginTop="25sp"
+        android:textSize="45sp"
+        android:gravity="center"
+
+         />
+    <EditText
+        android:id="@+id/txtProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese producto"
+        android:textSize="25sp"
+        android:layout_below="@+id/txtTitulo"
+        android:layout_margin="25sp"
+        />
+
+    <EditText
+        android:id="@+id/txtValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese Valor"
+        android:textSize="25sp"
+        android:layout_below="@id/txtProducto"
+        android:layout_margin="25sp"
+        />
+
+    <EditText
+        android:id="@+id/txtCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese Cantidad"
+        android:textSize="25sp"
+        android:layout_below="@id/txtValor"
+        android:layout_margin="25sp"
+        />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCantidad"
+        android:layout_marginTop="55sp"
+        android:text=""
+        android:textSize="25sp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150sp"
+        android:layout_below="@id/txtCantidad"
+        android:text="Mostrar Datos"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:onClick="pulsar"
+        />
+</RelativeLayout>

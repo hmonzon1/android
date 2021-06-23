@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Operaciones Basicas"
+        android:layout_marginTop="25sp"
+        android:textSize="25sp"
+        android:gravity="center"
+         />
+    <EditText
+        android:id="@+id/txtNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitulo"
+        android:hint="Ingrese Numero"
+        android:layout_margin="25sp"
+        />
+    
+    <EditText
+        android:id="@+id/txtNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNum1"
+        android:layout_margin="25sp"
+        android:hint="Ingrese Numero"
+        />
+    
+    <TextView
+        android:id="@+id/txtTitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNum2"
+        android:text="Seleccione Operacion a realizar"
+        android:gravity="center"
+        android:layout_marginTop="15sp"
+        />
+    
+    <Button
+        android:id="@+id/btnSumar"
+        android:layout_width="65sp"
+        android:layout_height="65sp"
+        android:text="+"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_below="@+id/txtTitulo2"
+        android:layout_marginTop="40sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25sp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:onClick="pulsar"
+        />
+
+    <Button
+        android:id="@+id/btnRestar"
+        android:layout_width="65sp"
+        android:layout_height="65sp"
+        android:text="-"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_below="@id/txtTitulo2"
+        android:layout_marginTop="40sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="125sp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:onClick="pulsar"
+
+      />
+
+    <Button
+        android:id="@+id/btnProducto"
+        android:layout_width="65sp"
+        android:layout_height="65sp"
+        android:text="*"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/txtTitulo2"
+        android:layout_marginTop="40sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="128sp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:onClick="pulsar"
+        />
+
+    <Button
+        android:id="@+id/btnDividir"
+        android:layout_width="65sp"
+        android:layout_height="65sp"
+        android:text="/"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/darker_gray"
+        android:layout_below="@id/txtTitulo2"
+        android:layout_marginTop="40sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35sp"
+        android:onClick="pulsar"
+
+        />
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@id/txtTitulo2"
+        android:layout_marginTop="150sp"
+        android:gravity="center"
+
+          />
+
+    <TextView
+        android:id="@+id/txtResultado2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_below="@id/txtTitulo2"
+        android:layout_marginTop="250sp"
+        android:gravity="center"
+        />
+
+</RelativeLayout>
