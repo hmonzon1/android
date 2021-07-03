@@ -1,3 +1,83 @@
 <resources>
-    <string name="app_name">My AppPaises</string>
+    <string name="app_name">Paises Americanos</string>
+
+    <string name="Guatemala">
+        GUATEMALA
+
+       Poblacion: 16,6 millones de Habitantes
+    </string>
+    
+    <string name="Salvador">
+        EL SALVADOR
+
+        Poblacion: 6,454 millones de Habitantes
+
+
+    </string>
+
+    <string name="Honduras">
+        HONDURAS
+
+        Poblacion: 9,746 millones de Habitantes
+
+
+    </string>
+    <string name="Nicaragua">
+        NICARAGUA
+
+        Poblacion: 6,546 millones de Habitantes
+
+
+    </string>
+
+    <string name="CostaRica">
+        COSTA RICA
+
+        Poblacion: 5,048 millones de Habitantes
+
+
+    </string>
+
+    <string name="Panama">
+        PANAMA
+
+        Poblacion: 4,246 millones de Habitantes
+
+
+    </string>
+
+    <string name="Mexico">
+        MEXICO
+
+        Poblacion: 127.6 millones de Habitantes
+
+
+    </string>
+
+    <string name="EstadosUnidos">
+       ESTADOS UNIDOS
+
+        Poblacion: 328.2 millones de Habitantes
+
+
+    </string>
+
+    <string name="Canada">
+        CANADA
+
+        Poblacion: 37,59 millones de Habitantes
+
+
+    </string>
+
+    <string name="Colombia">
+        COLOMBIA
+
+        Poblacion: 50.34 millones de Habitantes
+
+
+    </string>
+
+
+
 </resources>

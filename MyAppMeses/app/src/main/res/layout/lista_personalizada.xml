@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginTop="45sp"
+        android:layout_marginLeft="25sp"
+        android:src="@drawable/ic_calendar2"
+        />
+
+    <TextView
+        android:id="@+id/txtNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="75sp"
+        android:layout_toRightOf="@+id/img1"
+        android:layout_marginRight="7sp"
+
+        />
+
+    <TextView
+        android:id="@+id/txtMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="65sp"
+        android:layout_toRightOf="@+id/txtNum"
+        android:layout_marginRight="20sp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/txtanio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2021"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_margin="15sp"
+        android:layout_toRightOf="@+id/img1"
+        android:layout_below="@id/txtMenu"
+
+
+        />
+
+
+</RelativeLayout>

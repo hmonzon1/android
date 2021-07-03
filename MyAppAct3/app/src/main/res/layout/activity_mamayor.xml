@@ -16,7 +16,7 @@
         />
 
     <TextView
-        android:id="@+id/Titulo2"
+        android:id="@+id/Titulo1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/img2"
@@ -26,6 +26,71 @@
         android:textSize="25sp"
         />
 
+    <TextView
+        android:id="@+id/Titulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Titulo1"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="Multiplicacion Aleatoria"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/txtNumero1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text=""
+        android:layout_below="@id/Titulo2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20sp"
+        />
+
+    <TextView
+        android:id="@+id/txtNumero2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text=""
+        android:layout_below="@id/txtNumero1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20sp"
+        />
+
+    <EditText
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/txtNumero2"
+        android:text=""
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20sp"
+        />
+
+    <Button
+        android:id="@+id/txtCalificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtResultado"
+        android:layout_margin="25sp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="Verificar"
+        android:onClick="pulsar"
+        />
+
+    <TextView
+        android:id="@+id/txtCalificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_below="@id/txtCalificar"
+        android:gravity="center"
+        android:layout_marginTop="25sp"
+        />
 
 
 </RelativeLayout>

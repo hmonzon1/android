@@ -13,6 +13,8 @@
         android:src="@drawable/ic_biberon"
         android:layout_marginTop="25sp"
         />
+
+
     <TextView
         android:id="@+id/txtTitulo"
         android:layout_width="match_parent"
@@ -23,4 +25,72 @@
         android:layout_marginTop="25sp"
         android:gravity="center"
         />
+
+    <TextView
+        android:id="@+id/txtTitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Suma de numeros aleatorios"
+        android:layout_below="@id/txtTitulo"
+        android:layout_marginTop="25sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/txtNumero1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/txtTitulo2"
+        android:numeric="integer"
+        android:layout_marginTop="25sp"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/txtNumero2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/txtNumero1"
+        android:layout_marginTop="25sp"
+        android:layout_centerInParent="true"
+        />
+
+    <EditText
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNumero2"
+        android:text=""
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25sp"
+        />
+
+    <Button
+        android:id="@+id/txtCalificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtResultado"
+        android:layout_marginTop="25sp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:layout_margin="25sp"
+        android:text="Calificar"
+        android:onClick="onClick"
+        />
+
+    <TextView
+        android:id="@+id/txtCalificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCalificar"
+        android:text=""
+        android:gravity="center"
+        android:layout_marginTop="35sp"
+        />
+
+
 </RelativeLayout>

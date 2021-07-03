@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">My AppListado</string>
+    <string name="Dato1">
+
+        Hola a todos soy la A
+
+    </string>
+
+    <string name="Dato2">
+
+        Hola a todos soy la E
+
+    </string>
+
+    <string name="Dato3">
+
+        Hola a todos soy la I
+
+    </string>
+
+    <string name="Dato4">
+
+        Hola a todos soy la O
+
+    </string>
+
+    <string name="Dato5">
+
+        Hola a todos soy la U
+
+    </string>
+
+</resources>

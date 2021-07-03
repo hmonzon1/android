@@ -13,7 +13,7 @@
         android:text="Ingrese los datos"
         android:layout_marginTop="25sp"
         android:gravity="center"
-        android:textSize="25sp"
+        android:textSize="45sp"
 
         />
 
@@ -23,8 +23,8 @@
         android:layout_height="wrap_content"
         android:hint="Ingrese su Nombre"
         android:layout_below="@id/txtTitulo"
-        android:layout_margin="25sp"
-        android:textSize="25sp"
+        android:layout_margin="20sp"
+        android:textSize="20sp"
         />
     <EditText
         android:id="@+id/txtEdad"
@@ -32,8 +32,8 @@
         android:layout_height="wrap_content"
         android:hint="Ingrese su edad"
         android:layout_below="@id/txtNombre"
-        android:layout_margin="25sp"
-        android:textSize="25sp"
+        android:layout_margin="20sp"
+        android:textSize="20sp"
         />
 
     <Button
@@ -41,21 +41,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/txtEdad"
-        android:layout_margin="35sp"
-        android:text="seleccione si es menor de edad"
+        android:layout_margin="20sp"
+        android:text="Test de la edad"
         android:onClick="pulsar"
         android:backgroundTint="@android:color/holo_green_dark"
+        android:textSize="20sp"
         />
 
-    <Button
-        android:id="@+id/btnVerficar2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btnVerficar"
-        android:layout_margin="35sp"
-        android:text="Seleccione si es mayor de edad"
-        android:onClick="pulsar"
-        android:backgroundTint="@android:color/holo_green_dark"
-        />
+
 
 </RelativeLayout>
