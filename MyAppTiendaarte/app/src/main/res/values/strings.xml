@@ -1,3 +1,65 @@
 <resources>
-    <string name="app_name">My AppTiendaarte</string>
+    <string name="app_name">Mi AppTiendadeArte</string>
+
+    <string name="pastora">
+
+        La Pastora es un cuadro del artista francés, William-Adolphe
+        Bouguereau realizado en 1889;
+        es la representación idílica de una joven mujer pastora del
+        sur de Francia, descalza en primer plano, con la vara sobre
+        los hombros, las vacas pastando en el prado al fondo.
+
+    </string>
+
+    <string name="pensador">
+         El escultor concibió esta pieza entre 1881 y 1882 para decorar
+        el tímpano del conjunto escultórico La puerta del Infierno, encargado
+        en 1880 por  el Ministerio de Instrucción Pública y Bellas Artes de Francia.
+        Esto serviría como entrada para el que sería el Museo de Artes Decorativas de París.
+
+    </string>
+
+    <string name="cesta">
+        Al respecto de este cuadro, su propio autor afirmaba: "Mi objetivo consistía en recuperar
+        la técnica perdida por los viejos maestros y llegar a una inmovilidad del objeto pre-explosivo
+
+    </string>
+
+    <string name="inspiracion">
+
+        En sus búsqueda de nuevas formas ,Kandinsky buscó inspiración también en fuentes ocultas y esotéricas .
+        En su escrito sobre Teoría del Arte se encuentran numerosas referencias a lecturas sobre estos temas.
+
+    </string>
+
+    <string name="composicion">
+        La obra Composición IV es una pintura al óleo realizada
+        por el artista ruso Wassily Kandinski en el año 1911,
+        ya de marcada tendencia abstracta, se conserva en el
+        Kunstsammlung Nordhein-Westfalen en Düsseldorf. Estilo abstracto.
+
+
+
+
+    </string>
+
+    <string name="cielo">
+        El azul era el color favorito del artista, quien decía que es el color
+        del cielo y llama al hombre hacia el infinito. El optimismo que desprende
+        Cielo azul sorprende en una dura época en la que París se hallaba bajo
+        la ocupación nazi.
+
+    </string>
+
+    <string name="pastorat">
+        Pastora
+
+
+    </string>
+
+    <string name="preciop1">
+        Q. 5000.00
+
+
+    </string>
 </resources>

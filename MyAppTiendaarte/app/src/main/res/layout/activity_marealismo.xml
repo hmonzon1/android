@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MARealismo">
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Pinturas de Realismo"
+     android:textSize="25sp"
+     android:textColor="@color/black"
+     android:textStyle="bold"
+     android:gravity="center"
+     android:layout_marginTop="25sp"
+
+  />
+
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:layout_margin="10sp">
+
+
+
+   <ImageView
+       android:id="@+id/img1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/ic_pastora"
+
+    />
+
+   <TextView
+       android:id="@+id/txtPintura1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/pastorat"
+       android:textStyle="bold"
+       android:textSize="15sp"
+       android:layout_marginTop="15sp"
+    />
+   <TextView
+       android:id="@+id/txtPrecio1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/preciop1"
+       android:textStyle="bold"
+       android:textSize="15sp"
+       android:layout_marginTop="15sp"
+       />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/pastora"
+       android:textStyle="bold"
+       android:textSize="10sp"
+       android:layout_margin="15sp"
+
+       />
+
+   <Button
+       android:id="@+id/btnP1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Adquirir"
+       android:textSize="20sp"
+       android:layout_margin="15sp"
+       android:onClick="onClick"
+       />
+
+   <ImageView
+       android:id="@+id/img2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/ic_pensador"
+
+       />
+
+   <TextView
+       android:id="@+id/txtPintura2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Nombre: El Pensador"
+       android:textStyle="bold"
+       android:textSize="15sp"
+       android:layout_marginTop="15sp"
+       />
+   <TextView
+       android:id="@+id/txtPrecio2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Precio: Q. 3000.00"
+       android:textStyle="bold"
+       android:textSize="15sp"
+       android:layout_marginTop="15sp"
+       />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/pensador"
+       android:textStyle="bold"
+       android:textSize="10sp"
+       android:layout_margin="15sp"
+
+       />
+
+   <Button
+       android:id="@+id/btnP2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Adquirir"
+       android:textSize="20sp"
+       android:layout_margin="15sp"
+       android:onClick="onClick"
+       />
+
+   <ImageView
+       android:id="@+id/img3"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/ic_cesta"
+
+       />
+
+   <TextView
+       android:id="@+id/txtPintura3"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Nombre: La Cesta de Pan"
+       android:textStyle="bold"
+       android:textSize="15sp"
+       android:layout_marginTop="15sp"
+       />
+   <TextView
+       android:id="@+id/txtPrecio3"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Precio: Q. 2000.00"
+       android:textStyle="bold"
+       android:textSize="15sp"
+       android:layout_marginTop="15sp"
+       />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/cesta"
+       android:textStyle="bold"
+       android:textSize="10sp"
+       android:layout_margin="15sp"
+
+       />
+
+   <Button
+       android:id="@+id/btnP3"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Adquirir"
+       android:textSize="20sp"
+       android:layout_margin="15sp"
+       android:onClick="onClick"
+       />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </LinearLayout>
+
+ </ScrollView>
+</LinearLayout>

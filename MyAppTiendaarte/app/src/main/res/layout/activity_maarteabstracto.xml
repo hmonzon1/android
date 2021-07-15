@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MAarteabstracto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pinturas Arte Abastracto"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="25sp"
+        android:textColor="@color/black"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10sp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_improvisacion"
+
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre:     Improvisation 19"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="15sp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Precio: Q1500.00"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="15sp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/inspiracion"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_margin="15sp"
+                android:layout_marginLeft="15sp"
+
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adquirir"
+                android:layout_margin="15sp"
+                android:onClick="onClick"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_cielo"
+
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre:     Cielo Azul"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="15sp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Precio: Q5500.00"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="15sp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/inspiracion"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_margin="15sp"
+                android:layout_marginLeft="15sp"
+
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adquirir"
+                android:layout_margin="15sp"
+                android:onClick="onClick"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_composicion"
+
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre:     Composicion X"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="15sp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Precio: Q1200.00"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="15sp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/composicion"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_margin="15sp"
+                android:layout_marginLeft="15sp"
+
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adquirir"
+                android:layout_margin="15sp"
+                android:onClick="onClick"
+                />
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

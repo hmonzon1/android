@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MAartepop">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arte Pop"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="25sp">                                            >
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_chapuzon"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Nombre:      El gran Chapuzon"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="15sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Precio: Q. 4500.00"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="15sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="10sp"
+                android:layout_margin="15sp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15sp"
+                android:text="Adquirir"
+                android:onClick="onClick"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_chambel"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Nombre:      Latas de Sopa Champbell"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="15sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Precio: Q. 3500.00"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="15sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="10sp"
+                android:layout_margin="15sp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15sp"
+                android:text="Adquirir"
+                android:onClick="onClick"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_bab"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Nombre:      M-Maybe"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="15sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Precio: Q. 1500.00"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="15sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="10sp"
+                android:layout_margin="15sp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15sp"
+                android:text="Adquirir"
+                android:onClick="onClick"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

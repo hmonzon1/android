@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyAppTiendaarte">
+        <activity android:name=".MaReceptor"></activity>
+        <activity android:name=".MAartepop" />
+        <activity android:name=".MAarteabstracto" />
+        <activity android:name=".MARealismo" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

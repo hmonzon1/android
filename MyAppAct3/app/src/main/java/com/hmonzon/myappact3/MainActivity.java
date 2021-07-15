@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         if (edades >= 18) {
             Intent intent = new Intent(this, MAMayor.class);
             startActivity(intent);
-            
+
 
 
         } else {

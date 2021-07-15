@@ -1,0 +1,2 @@
+rootProject.name = "My AppRecycler_DatosVO"
+include ':app'
