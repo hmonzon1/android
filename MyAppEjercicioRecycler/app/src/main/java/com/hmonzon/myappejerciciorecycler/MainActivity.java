@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch(item.getItemId()){
             case R.id.itemlista:
-                recyclerView.setLayoutManager(new GridLayoutManager(this,2));
+                recyclerView.setLayoutManager(new GridLayoutManager(this,3));
 
                 break;
             case R.id.itemlista1:

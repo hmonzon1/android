@@ -6,14 +6,14 @@
         android:id="@+id/itemlista"
         android:title="Lista"
         app:showAsAction="ifRoom"
-        android:icon="@drawable/ic_cero"
+        android:icon="@drawable/ic_grid"
         />
 
     <item
         android:id="@+id/itemlista1"
         android:title="Lista"
         app:showAsAction="ifRoom"
-        android:icon="@drawable/ic_cero"
+        android:icon="@drawable/ic_lista"
         />
 
 </menu>
