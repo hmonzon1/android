@@ -1,5 +1,6 @@
 package com.hmonzon.myapptiendaarte;
 
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -49,12 +50,14 @@ public class MARealismo extends AppCompatActivity {
 
             Intent intent = new Intent(this,
                     MaReceptor.class);
+            startActivity(intent);
             intent.putExtra("nombre", cuadro1);
             intent.putExtra("precio", preciop1);
 
 
 
-            Toast.makeText(this, "NO encontrado", Toast.LENGTH_SHORT).show();
+
+           // Toast.makeText(this, "NO encontrado", Toast.LENGTH_SHORT).show();
 
 
 

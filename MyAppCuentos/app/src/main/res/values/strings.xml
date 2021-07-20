@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">My AppCuentos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="pinocho">
+        Érase una vez un anciano carpintero llamado Gepeto que era muy feliz
+        haciendo juguetes de madera para los niños de su pueblo.
+
+        Un día, hizo una marioneta de una madera de pino muy especial y decidió
+        llamarla Pinocho. En la noche, un hada azul llegó al taller del anciano carpintero:
+
+        —Buen Gepeto —dijo mientras el anciano dormía—, has hecho a los demás tan felices,
+        que mereces que tu deseo de ser padre se haga realidad. Sonriendo, el hada azul
+        tocó la marioneta con su varita mágica:
+
+
+    </string>
+
+    <string name="caperucita">
+    Un día la abuela de Caperucita, que vivía en el bosque, enfermó y la madre de Caperucita le pidió que le llevara una cesta con una torta y un tarro de mantequilla. Caperucita aceptó encantada.
+
+    - Ten mucho cuidado Caperucita, y no te entretengas en el bosque.
+    - ¡Sí mamá!
+        La niña caminaba tranquilamente por el bosque cuando el lobo la vio y se acercó a ella.
+
+    - ¿Dónde vas Caperucita?
+    - A casa de mi abuelita a llevarle esta cesta con una torta y mantequilla.
+    - Yo también quería ir a verla…. así que, ¿por qué no hacemos una carrera? Tú ve por ese camino de aquí que yo iré por este otro.
+    - ¡Vale!
+
+
+
+
+    </string>
+
+    <string name="Doctora_Dibujos">
+    Mientras esperaba, Tita se enteró de que el Doctor Dibujos era el mejor
+        cirujano del mundo, capaz de arreglar cualquier dibujo, aunque estuviera hecho por niños muy pequeños. Cada noche revisaba los nuevos dibujos y luego operaba a cuantos podía. Pero eran tantos que muchos tenían que seguir viviendo con sus fallos en la zona de los imperfectos, un lugar tremendamente triste.
+
+    - ¡Mirad! - gritó alguien - ¡Una Doctora Dibujos!
+
+     En un instante se montó un gran revuelo en torno a Tita. 
+        Cuando se quiso dar cuenta, ya estaba en la consulta del Doctor Dibujos.
+
+        
+    </string>
+    
+    <string name="Las_arrugas">
+
+        A Bárbara se le abrieron los ojos como si hubiera descubierto un tesoro,
+        y así los mantuvo mientras el abuelo le enseñaba la arruga en la que
+        guardaba el día que aprendió que era mejor perdonar que guardar rencor,
+        o aquella otra que decía que escuchar era mejor que hablar, esa otra enorme
+        que mostraba que es más importante dar que recibir o una muy escondida que
+        decía que no había nada mejor que pasar el tiempo con los niños...
+
+        Desde aquel día, a Bárbara su abuelo le parecía cada día más guapo, y con
+        cada arruga que aparecía en su rostro, la niña acudía corriendo para ver 
+        qué nueva lección había aprendido. Hasta que en una de aquellas charlas, 
+        fue su abuelo quien descubrió una pequeña arruga en el cuello de la niña:
+
+
+    </string>
+    
+    <string name="rosa">
+
+    Por ello pasó los pocos días que fue flor hasta que empezó a marchitarse
+sin saber que a su alrededor todos estaban pendientes de ella y de su
+perfección: su perfume, la suavidad de sus pétalos, su armonía. No se daba
+cuenta de que todo el que la veía tenia elogios hacia ella.
+Las malas hierbas que la envolvían estaban fascinadas con su belleza y
+vivían hechizadas por su aroma y elegancia.
+
+Un día de mucho sol y calor, una muchacha paseaba por el jardín pensando
+cuántas cosas bonitas nos regala la madre tierra, cuando de pronto vio una
+rosa blanca en una parte olvidada del jardín, que empezaba a marchitarse.
+
+–Hace días que no llueve, pensó – si se queda aquí mañana ya estará
+mustia. La llevaré a casa y la pondré en aquel jarrón tan bonito que me
+regalaron.
+
+
+
+    </string>
+</resources>
