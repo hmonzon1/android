@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityInsertar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Mascotas"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/editNombreMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textSize="25sp"
+        android:hint="Nombre Mascota"
+        />
+    <EditText
+        android:id="@+id/editRaza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textSize="25sp"
+        android:hint="Raza Mascota"
+        />
+    <EditText
+        android:id="@+id/editColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textSize="25sp"
+        android:hint="Color Mascota"
+        />
+    <EditText
+        android:id="@+id/editEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textSize="25sp"
+        android:hint="Edad Mascota"
+        />
+
+    <Button
+        android:id="@+id/btnGuardarMascotas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E30000"
+        android:textSize="25sp"
+        android:text="Insertar Mascotas"
+        android:layout_margin="25sp"
+        android:onClick="onClick"
+        />
+
+</LinearLayout>

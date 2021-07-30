@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">My AppExtrasRecyclerFragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+    <string name="detalleString1">
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel tellus
+        fermentum justo malesuada consequat. Aliquam mi est, porta vel risus id,
+        laoreet tristique diam. Donec eu consectetur risus. Fusce sed turpis ornare
+        libero tempor maximus a ac metus. Integer posuere dictum lorem at sodales.
+        Proin vel lorem ut quam commodo tincidunt. Ut blandit, nunc quis aliquet ultricies,
+        nunc purus gravida elit, quis sollicitudin eros ipsum vitae orci. Mauris rutrum
+        pulvinar mattis. Etiam dapibus enim maximus accumsan consectetur. Morbi luctus
+        nulla sem, non commodo enim feugiat at.
+        \n\n\n
+
+In scelerisque dolor ac mauris elementum, in pharetra ante porttitor.
+        Sed dolor enim, tristique nec justo sed, fringilla elementum ipsum.
+        Aliquam tempor et nibh sit amet semper. Nullam imperdiet ac nulla in
+        faucibus. Ut bibendum vulputate nibh, sed iaculis velit gravida vitae.
+        Nulla at sapien rutrum, venenatis risus eu, congue augue. Phasellus vel
+        porta nulla. In congue sit amet quam ac lacinia. Cras cursus eu lectus at accumsan.
+
+
+
+    </string>
+
+    <string name="especificacionesString1">
+
+Donec varius imperdiet tempor. Phasellus dignissim ac elit at laoreet. Aenean
+        sit amet mollis libero. Cras sem erat, maximus sit amet metus eu, viverra
+        aliquam justo. Fusce vel augue ac mi blandit pulvinar vel quis nibh. Praesent
+        blandit, mi at condimentum vulputate, sapien dolor feugiat nunc, tempus tincidunt
+        mi libero non arcu. Sed rutrum sit amet lorem et placerat.
+
+
+    </string>
+
+    <string name="detalleString2">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel tellus
+        fermentum justo malesuada consequat. Aliquam mi est, porta vel risus id,
+        laoreet tristique diam. Donec eu consectetur risus. Fusce sed turpis ornare
+        libero tempor maximus a ac metus. Integer posuere dictum lorem at sodales.
+        Proin vel lorem ut quam commodo tincidunt. Ut blandit, nunc quis aliquet ultricies,
+        nunc purus gravida elit, quis sollicitudin eros ipsum vitae orci. Mauris rutrum
+        pulvinar mattis. Etiam dapibus enim maximus accumsan consectetur. Morbi luctus
+        nulla sem, non commodo enim feugiat at.
+    \n\n\n
+In scelerisque dolor ac mauris elementum, in pharetra ante porttitor.
+        Sed dolor enim, tristique nec justo sed, fringilla elementum ipsum.
+        Aliquam tempor et nibh sit amet semper. Nullam imperdiet ac nulla in
+        faucibus. Ut bibendum vulputate nibh, sed iaculis velit gravida vitae.
+        Nulla at sapien rutrum, venenatis risus eu, congue augue. Phasellus vel
+        porta nulla. In congue sit amet quam ac lacinia. Cras cursus eu lectus at accumsan.
+
+
+
+    </string>
+
+    <string name="especificacionesString2">
+Donec varius imperdiet tempor. Phasellus dignissim ac elit at laoreet. Aenean
+        sit amet mollis libero. Cras sem erat, maximus sit amet metus eu, viverra
+        aliquam justo. Fusce vel augue ac mi blandit pulvinar vel quis nibh. Praesent
+        blandit, mi at condimentum vulputate, sapien dolor feugiat nunc, tempus tincidunt
+        mi libero non arcu. Sed rutrum sit amet lorem et placerat.
+
+
+
+    </string>
+    <string name="detalleString3">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel tellus
+        fermentum justo malesuada consequat. Aliquam mi est, porta vel risus id,
+        laoreet tristique diam. Donec eu consectetur risus. Fusce sed turpis ornare
+        libero tempor maximus a ac metus. Integer posuere dictum lorem at sodales.
+        Proin vel lorem ut quam commodo tincidunt. Ut blandit, nunc quis aliquet ultricies,
+        nunc purus gravida elit, quis sollicitudin eros ipsum vitae orci. Mauris rutrum
+        pulvinar mattis. Etiam dapibus enim maximus accumsan consectetur. Morbi luctus
+        nulla sem, non commodo enim feugiat at.
+\n\n
+In scelerisque dolor ac mauris elementum, in pharetra ante porttitor.
+        Sed dolor enim, tristique nec justo sed, fringilla elementum ipsum.
+        Aliquam tempor et nibh sit amet semper. Nullam imperdiet ac nulla in
+        faucibus. Ut bibendum vulputate nibh, sed iaculis velit gravida vitae.
+        Nulla at sapien rutrum, venenatis risus eu, congue augue. Phasellus vel
+        porta nulla. In congue sit amet quam ac lacinia. Cras cursus eu lectus at accumsan.
+
+
+
+    </string>
+
+    <string name="especificacionesString3">
+Donec varius imperdiet tempor. Phasellus dignissim ac elit at laoreet. Aenean
+        sit amet mollis libero. Cras sem erat, maximus sit amet metus eu, viverra
+        aliquam justo. Fusce vel augue ac mi blandit pulvinar vel quis nibh. Praesent
+        blandit, mi at condimentum vulputate, sapien dolor feugiat nunc, tempus tincidunt
+        mi libero non arcu. Sed rutrum sit amet lorem et placerat.
+
+
+
+    </string>
+    <string name="detalleString4">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel tellus
+        fermentum justo malesuada consequat. Aliquam mi est, porta vel risus id,
+        laoreet tristique diam. Donec eu consectetur risus. Fusce sed turpis ornare
+        libero tempor maximus a ac metus. Integer posuere dictum lorem at sodales.
+        Proin vel lorem ut quam commodo tincidunt. Ut blandit, nunc quis aliquet ultricies,
+        nunc purus gravida elit, quis sollicitudin eros ipsum vitae orci. Mauris rutrum
+        pulvinar mattis. Etiam dapibus enim maximus accumsan consectetur. Morbi luctus
+        nulla sem, non commodo enim feugiat at.
+\n\n
+In scelerisque dolor ac mauris elementum, in pharetra ante porttitor.
+        Sed dolor enim, tristique nec justo sed, fringilla elementum ipsum.
+        Aliquam tempor et nibh sit amet semper. Nullam imperdiet ac nulla in
+        faucibus. Ut bibendum vulputate nibh, sed iaculis velit gravida vitae.
+        Nulla at sapien rutrum, venenatis risus eu, congue augue. Phasellus vel
+        porta nulla. In congue sit amet quam ac lacinia. Cras cursus eu lectus at accumsan.
+
+
+
+    </string>
+
+    <string name="especificacionesString4">
+Donec varius imperdiet tempor. Phasellus dignissim ac elit at laoreet. Aenean
+        sit amet mollis libero. Cras sem erat, maximus sit amet metus eu, viverra
+        aliquam justo. Fusce vel augue ac mi blandit pulvinar vel quis nibh. Praesent
+        blandit, mi at condimentum vulputate, sapien dolor feugiat nunc, tempus tincidunt
+        mi libero non arcu. Sed rutrum sit amet lorem et placerat.
+
+
+
+    </string>
+</resources>

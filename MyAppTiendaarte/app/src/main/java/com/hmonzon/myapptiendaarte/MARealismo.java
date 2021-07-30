@@ -10,8 +10,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MARealismo extends AppCompatActivity {
+import java.util.ArrayList;
 
+public class MARealismo extends AppCompatActivity {
+    private ArrayList<Integer> imagenes = new ArrayList<>();
     private TextView n1;
     private TextView p1;
     private TextView n2;
@@ -19,8 +21,7 @@ public class MARealismo extends AppCompatActivity {
     private TextView n3;
     private TextView p3;
     private ImageView i1, i2, i3;
-    String cuadro1;
-    String preciop1;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,26 +39,41 @@ public class MARealismo extends AppCompatActivity {
         i2 = findViewById(R.id.img2);
         i3 = findViewById(R.id.img3);
 
-         cuadro1 = n1.getText().toString();
-         preciop1 = p1.getText().toString();
+        imagenes.add(R.drawable.ic_pastora);
+        imagenes.add(R.drawable.ic_pensador);
+        imagenes.add(R.drawable.ic_cesta);
+
+
+
     }
 
     private void enviarDatos1() {
+         int img1 = imagenes.get(0);
+         String pintura = n1.getText().toString();
+         String precio = p1.getText().toString();
+
+         if (!pintura.isEmpty()&&!precio.isEmpty()){
+
+             Intent intent = new Intent(this,
+                     MaReceptor.class);
+
+             intent.putExtra("nombre", pintura);
+             intent.putExtra("precio", precio);
+             intent.putExtra("pintura", img1);
+             startActivity(intent);
+
+         }else{
+             Toast.makeText(this, "Datos no ingresados", Toast.LENGTH_SHORT).show();
+         }
 
 
 
 
 
-            Intent intent = new Intent(this,
-                    MaReceptor.class);
-            startActivity(intent);
-            intent.putExtra("nombre", cuadro1);
-            intent.putExtra("precio", preciop1);
 
 
 
 
-           // Toast.makeText(this, "NO encontrado", Toast.LENGTH_SHORT).show();
 
 
 

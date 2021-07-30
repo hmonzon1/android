@@ -3,12 +3,14 @@ package com.hmonzon.myapptiendaarte;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class MaReceptor extends AppCompatActivity {
 
     private TextView reciben, recibep;
+    private ImageView imageView;
 
 
     @Override
@@ -18,6 +20,7 @@ public class MaReceptor extends AppCompatActivity {
 
         reciben = findViewById(R.id.txtNombreR);
         recibep = findViewById(R.id.txtPrecioR);
+        imageView = findViewById(R.id.Receptorimg);
 
 
 
@@ -28,14 +31,17 @@ public class MaReceptor extends AppCompatActivity {
     private void recibeDatos(){
                Bundle bundle = getIntent().getExtras();
 
-               String nombre1 = bundle.getString("nombre");
-               String precio1 = bundle.getString("precio");
+               String nombre = bundle.getString("nombre");
+               String precio = bundle.getString("precio");
+               int imagen = bundle.getInt("pintura");
 
-                reciben.setText(String.valueOf("Nombre"+nombre1));
-                recibep.setText(String.valueOf("Precio: "+precio1));
+                reciben.setText(String.valueOf("Nombre"+nombre));
+                recibep.setText(String.valueOf("Precio: "+precio));
+                imageView.setImageResource(imagen);
 
 
-                   Toast.makeText(this, "Datos no recibidos", Toast.LENGTH_SHORT).show();
+
+                   //Toast.makeText(this, "Datos no recibidos", Toast.LENGTH_SHORT).show();
                }
 
     }

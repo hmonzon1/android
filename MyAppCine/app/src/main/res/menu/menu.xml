@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/itemlista"
+        android:title="lista"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_lista"
+/>
+
+    <item
+        android:id="@+id/itemGrid"
+        android:title="Grid"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/id_grid"
+        />
+</menu>

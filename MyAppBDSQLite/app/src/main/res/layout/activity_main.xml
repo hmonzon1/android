@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SQLite"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_margin="25sp"
+
+         />
+
+    <Button
+        android:id="@+id/btnMenuInsertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="INSERTAR"
+        android:textSize="25sp"
+        android:backgroundTint="#E30000"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/btnMenuConsultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Consultar"
+        android:textSize="25sp"
+        android:backgroundTint="#E30000"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/btnMenuMostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Mostrar"
+        android:textSize="25sp"
+        android:backgroundTint="#E30000"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/btnMenuActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Actualizar"
+        android:textSize="25sp"
+        android:backgroundTint="#E30000"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/btnMenuEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Eliminar"
+        android:textSize="25sp"
+        android:backgroundTint="#E30000"
+        android:onClick="onClick"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_pets"
+        android:layout_margin="25sp"
+        />
+
+</LinearLayout>
