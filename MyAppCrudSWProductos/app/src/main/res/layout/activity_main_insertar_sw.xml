@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityInsertarSW">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insertar Producto"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        />
+
+    <EditText
+        android:id="@+id/edNombreProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese nombre producto"
+        android:layout_margin="25sp"
+        android:textSize="25sp"
+     />
+
+    <EditText
+        android:id="@+id/edMarcaProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese marca producto"
+        android:layout_margin="25sp"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:id="@+id/edCostoProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese costo producto"
+        android:layout_margin="25sp"
+        android:textSize="25sp"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/edPrecioProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese precio producto"
+        android:layout_margin="25sp"
+        android:textSize="25sp"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="guardar"
+        android:textSize="25sp"
+        android:backgroundTint="#009688"
+        android:onClick="onClick"
+        />
+
+
+
+</LinearLayout>

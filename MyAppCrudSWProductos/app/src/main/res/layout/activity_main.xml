@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SW PRODUCTOS"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        />
+
+    <Button
+        android:id="@+id/btnMenuGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="guardar"
+        android:textSize="25sp"
+        android:backgroundTint="#009688"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/btnMenuBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Buscar"
+        android:textSize="25sp"
+        android:backgroundTint="#009688"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/btnMenuMostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Mostrar"
+        android:textSize="25sp"
+        android:backgroundTint="#009688"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/btnMenuEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Eliminar"
+        android:textSize="25sp"
+        android:backgroundTint="#009688"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/btnMenuActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Actualizar"
+        android:textSize="25sp"
+        android:backgroundTint="#009688"
+        android:onClick="onClick"
+        />
+    
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_producto"
+        />
+
+
+
+</LinearLayout>
